@@ -1,7 +1,7 @@
 @import "mapas.less";
 
-@breakpointMobile: ~"(max-width:767px)";
-@breakpointTablet: ~"(max-width:1023px) and (max-width: 1023px)";
+@breakpointMobile: ~"(max-width: 767px)";
+@breakpointTablet: ~"(max-width: 768px) and (max-width: 960px)";
 
 
 .marginBotton8 {
@@ -28,11 +28,6 @@ li {
     max-width: 960px;
     width: 100%;
     margin: 0 auto;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    
     @media @breakpointMobile {
         max-width: 70%;
     }
@@ -47,10 +42,12 @@ header {
 
     .profile-avatar {
         display: block;
-        margin: 0 auto 74px;
-        border-radius: 150%;
-        max-width: 30%;
+        margin: 0 auto 24px;
+        border-radius: 50%;
+        width: 250px;
+        max-width: 250px;
     }
+
 }
 
 .profile-bio {

@@ -18,17 +18,13 @@ li {
   max-width: 960px;
   width: 100%;
   margin: 0 auto;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
 }
-@media (max-width:767px) {
+@media (max-width: 767px) {
   .container {
     max-width: 70%;
   }
 }
-@media (max-width:1023px) and (max-width: 1023px) {
+@media (max-width: 768px) and (max-width: 960px) {
   .container {
     max-width: 80%;
   }
@@ -38,9 +34,10 @@ header {
 }
 header .profile-avatar {
   display: block;
-  margin: 0 auto 20px;
-  border-radius: 150%;
-  max-width: 20%;
+  margin: 0 auto 24px;
+  border-radius: 50%;
+  width: 250px;
+  max-width: 250px;
 }
 .profile-bio {
   text-align: center;
